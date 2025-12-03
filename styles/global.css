@@ -1,4 +1,6 @@
 @import url('./user.css');
+@import url('./social.css');
+@import url('./about.css');
 
 * {
     margin: 0;
@@ -43,10 +45,12 @@ body {
     margin: 160px auto 100px;
 }
 
-section {
-    background: pink ;
-    height: 400px;
+.subtitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 24px;
 }
+
 
 .projects {
     grid-column: 1 / 3;
