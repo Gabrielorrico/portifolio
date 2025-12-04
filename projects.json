@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Projeto Crud Python",
+    "image": "./assets/python.png",
+    "tags": ["Conteudos aprendidos na cadeira de FP", "Python", ""],
+    "link": "https://github.com/LeticiaCamelloBarros/CRUD_eventos_"
+  },
+	{
+    "name": "Portifolio Pessoal",
+    "image": "./assets/portfolio.png",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON"],
+    "link": "#"
+  },
+	{
+    "name": "Outro Projeto Exemplo",
+    "image": "",
+    "tags": ["", "", ""],
+    "link": ""
+  }
+]

@@ -1,0 +1,20 @@
+.header {    
+    width: 100%;
+    top: 0%;
+    height: 60px;
+    padding: 24px;
+    background-color: var(--background-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.header nav a {
+    color: #334155;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s;
+}
