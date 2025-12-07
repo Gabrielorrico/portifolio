@@ -2,19 +2,19 @@
   {
     "name": "Projeto Crud Python",
     "image": "./assets/python.png",
-    "tags": ["Conteudos aprendidos na cadeira de FP", "Python", ""],
+    "tags": ["Conteudos aprendidos na cadeira de FP", "Python", "CRUD"],
     "link": "https://github.com/LeticiaCamelloBarros/CRUD_eventos_"
   },
 	{
     "name": "Portifolio Pessoal",
     "image": "./assets/portfolio.png",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"],
-    "link": "#"
+    "link": ""
   },
 	{
-    "name": "Outro Projeto Exemplo",
-    "image": "",
-    "tags": ["", "", ""],
+    "name": "Desafio de Código - Tabuleiro de Xadrez",
+    "image": "./assets/torre1.png",
+    "tags": ["Python", "Lógica de programação", "Desafio de código"],
     "link": ""
   }
 ]

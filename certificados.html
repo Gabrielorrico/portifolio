@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados – Gabriel Orrico</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="certificados.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav>
+            <a href="index.html">Sobre mim</a>
+            <a href="certificados.html" class="active">Certificados</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="card projects">
+            <h2 class="subtitle">Certificados</h2>
+
+            <div id="project__content">
+                <div  class="project">
+
+                    <picture>
+                        <img src="assets/certificado senai.jpg" alt="Logo python">
+                    </picture>
+
+                    <strong>Certificado de conclusão de curso técnico de programação de jogos digitais</strong>
+
+                    <div>
+                        <span>Godot</span>
+                        <span>C</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="project">
+
+                    <picture>
+                        <img src="assets/certificadoPython.jpg" alt="Logo python">
+                    </picture>
+
+                    <strong>Certificado de conclusão de curso de Python essentials 1</strong>
+
+                    <div>
+                        <span>Python</span>
+                        <span>Lógica de programação</span>
+                    </div>
+                </div>
+
+                <div class="project">
+
+                    <picture>
+                        <img src="assets/certificado_JavaScript.png" alt="Logo python">
+                    </picture>
+
+                    <strong>Certificado de conclusão de curso de JavaScript essentials 1</strong>
+
+                    <div>
+                        <span>JavaScript</span>
+                        <span>Lógica de programação</span>
+                    </div>
+                </div>
+                
+            
+
+            </div>
+        </section>
+
+    </main>
+
+    <div id="modal-cert" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-img" src="" alt="">
+        </div>
+    </div>
+    
+    <script src="./scripts/modal.js"></script>
+
+
+</body>
+</html>

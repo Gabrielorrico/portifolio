@@ -87,4 +87,28 @@
     transition: all 0.3s;
 }
 
+@media (max-width: 1080px) {
+    .projects {
+        padding: 24px;
+    }
+
+    #project__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    #project__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project picture {
+        height: 180px;
+    }
+}
+
+
 
