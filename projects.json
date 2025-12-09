@@ -9,7 +9,7 @@
     "name": "Portifolio Pessoal",
     "image": "./assets/portfolio.png",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"],
-    "link": ""
+    "link": "https://github.com/Gabrielorrico/portifolio"
   },
 	{
     "name": "Desafio de Código - Tabuleiro de Xadrez",
